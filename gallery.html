@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Similar head content as index.html -->
+    <title>Your Business Name - Gallery</title>
+</head>
+<body>
+    <!-- Header (same as index.html) -->
+    
+    <!-- Page Title -->
+    <section class="page-title">
+        <div class="container">
+            <h1>Our Gallery</h1>
+        </div>
+    </section>
+    
+    <!-- Image Gallery -->
+    <section class="gallery-section">
+        <div class="container">
+            <h2>Image Gallery</h2>
+            <div class="gallery-grid">
+                <!-- Image 1 -->
+                <div class="gallery-item">
+                    <a href="assets/images/gallery/image1.jpg" data-lightbox="image-gallery" data-title="Project 1">
+                        <img src="assets/images/gallery/thumbnails/image1-thumb.jpg" alt="Project 1">
+                    </a>
+                </div>
+                
+                <!-- Additional gallery items -->
+                <!-- ... -->
+            </div>
+        </div>
+    </section>
+    
+    <!-- Video Gallery -->
+    <section class="video-gallery-section">
+        <div class="container">
+            <h2>Video Gallery</h2>
+            <div class="video-gallery-grid">
+                <!-- Video 1 -->
+                <div class="video-item">
+                    <div class="video-container">
+                        <video controls poster="assets/images/video-thumbs/video1-thumb.jpg">
+                            <source src="assets/videos/video1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <h3>Video Title 1</h3>
+                        <p>Brief description of the video content.</p>
+                    </div>
+                </div>
+                
+                <!-- YouTube Embedded Video -->
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe width="560" height="315" 
+                                src="https://www.youtube.com/embed/YOUR_YOUTUBE_VIDEO_ID" 
+                                title="YouTube video player" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen></iframe>
+                        <h3>YouTube Video Title</h3>
+                        <p>Brief description of the YouTube video content.</p>
+                    </div>
+                </div>
+                
+                <!-- Additional video items -->
+                <!-- ... -->
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer (same as index.html) -->
+    
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+    <!-- Lightbox JS for image gallery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+</body>
+</html>
