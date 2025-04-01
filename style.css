@@ -1,24 +1,24 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #000; /* Black background */
-    color: #fff; /* White text */
+    background-color: #f0ee86; /* Black background */
+    color: #020202; /* White text */
     line-height: 1.6;
 }
 header {
     text-align: center;
     padding: 2rem;
-    background-color: #FFD700; /* Shade of golden */
+    background-color: #f0ee86; /* Shade of golden */
     color: #000; /* Black text */
 }
 main {
     padding: 1rem;
 }
 h1, h2 {
-    color: #FFD700; /* Shade of golden */
+    color: #f0ee86; /* Shade of golden */
 }
 a {
-    color: #FFD700;
+    color: #f0ee86;
     text-decoration: none;
 }
 a:hover {
