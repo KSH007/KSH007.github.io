@@ -18,11 +18,13 @@ h1, h2 {
     color: #f0ee86; /* Shade of golden */
 }
 a {
-    color: #f0ee86;
-    text-decoration: none;
-}
-a:hover {
+    color: rgb(7, 7, 9);
     text-decoration: underline;
+}
+
+a:hover {
+    color: rgb(78, 79, 47);
+    text-decoration: none;
 }
 #gallery img, #gallery video {
     max-width: 100%;
@@ -32,5 +34,5 @@ footer {
     text-align: center;
     padding: 1rem;
     background-color: #333;
-    color: #fff;
+    color: #ffd500;
 }
